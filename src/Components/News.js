@@ -27,8 +27,6 @@ const News = (props) => {
   };
   useEffect(() => {
     updateNews();
-    let title = "D24News" + " - " + props.category;
-    document.title = title;
   }, []);
 
   const fetchMoreData = async () => {
