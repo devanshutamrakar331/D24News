@@ -7,7 +7,7 @@ import News from "./Components/News";
 
 const App = () => {
   const [apikey, setApiKey] = useState("55f411f839484f9cbd978fb27df2939f");
-  setApiKey("55f411f839484f9cbd978fb27df2939f");
+
   const [progress, setProgress] = useState(10);
   const setProgressPercent = (progress) => {
     setProgress(progress);
